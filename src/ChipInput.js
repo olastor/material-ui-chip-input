@@ -223,7 +223,7 @@ class ChipInput extends React.Component {
         } else {
           this.clearInput()
         }
-      }, 150)
+      }, 350)
     } else if (this.props.blurBehavior === 'clear') {
       this.clearInput()
     }

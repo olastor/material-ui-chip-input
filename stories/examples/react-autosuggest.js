@@ -68,9 +68,6 @@ function renderSuggestion (suggestion, { query, isHighlighted }) {
 
   return (
     <MenuItem
-      selected={isHighlighted}
-      component='div'
-      onMouseDown={(e) => e.preventDefault()} // prevent the click causing the input to be blurred
     >
       <div>
         {parts.map((part, index) => {
